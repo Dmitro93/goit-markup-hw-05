@@ -635,16 +635,20 @@ padding-right: 24px;
         justify-content: center;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
-.modal-close-btn:hover, .modal-close-btn:focus, .modal-close-btn:active + .modal-icon {
-    background-color: #404bbf;
-    fill: #ffffff;
-}
-
 .modal-icon {
-    border: 1px solid #e7e9fc;
-     fill: #2e2f42;
+         
      transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
+
+.modal-close-btn:hover, .modal-close-btn:focus + .modal-icon {
+    background-color: #404bbf;
+    fill: #ffffff;
+    border: none;
+}
+
+
+
+
 
 
 
@@ -694,7 +698,11 @@ margin-bottom: 4px;
 }
 
 .modal-field {
-    margin-bottom: 24px;
+    margin-bottom: 8px;
+}
+
+.modal-field-comment {
+    margin-bottom: 16px;
 }
 
 .input-box {
