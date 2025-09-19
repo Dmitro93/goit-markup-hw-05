@@ -705,6 +705,10 @@ margin-bottom: 4px;
     margin-bottom: 16px;
 }
 
+.modal-field-checkbox {
+    margin-bottom: 24px;
+}
+
 .input-box {
     position: relative;
 }
